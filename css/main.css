@@ -25,11 +25,14 @@ header {
   background-color: #e2e2e2;
 }
 
-li {
+nav {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
-a {
+nav a {
+  display: inline-block;
   text-decoration: none;
   color: #0074d9;
 }
@@ -40,6 +43,14 @@ a:hover {
   padding: .5em 1em .5em 1em;
 }
 
-h1 {
+.masthead {
   text-align: center;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  text-align: left;
 }
